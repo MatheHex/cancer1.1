@@ -5,7 +5,12 @@ __pycache__/
 
 
 
-*.tif
-*.tiff
-*.png
-*.csv
+# ignore images under pictures
+pictures/**/*.tif
+pictures/**/*.tiff
+pictures/**/*.png
+pictures/**/*.jpg
+pictures/**/*.jpeg
+
+# but keep placeholders
+!pictures/**/.gitkeep
